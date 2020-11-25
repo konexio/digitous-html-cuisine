@@ -1,1 +1,1 @@
-# digitous-html-cuisine
+# My Cuizine
