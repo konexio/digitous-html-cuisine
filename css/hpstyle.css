@@ -1,0 +1,26 @@
+header {
+background-image:linear-gradient(grey, #333), url(../img/header.jpg);
+background-blend-mode: multiply ;
+background-position: center;
+}
+.nav-link {
+font-family: 'Oswald', sans-serif;}
+
+.hometitle {
+padding: 10%;}
+
+section {
+justify-content: center;}
+
+section h2 {
+font-family: 'Oswald', sans-serif;
+padding:5%;}
+
+.lesarticles {
+padding: 2%;
+}
+
+
+h1, h2, h3, h4, h6 {
+font-family: 'Courgette', cursive;
+}
