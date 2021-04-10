@@ -1,0 +1,14 @@
+header {
+background-image:linear-gradient(grey, #333), url(../img/recipes/paella/paella-header.jpg);
+background-blend-mode: multiply ;
+background-position: center;
+padding-bottom: 20%;
+}
+#navbarNavAltMarkup {
+justify-content: flex-end;
+}
+
+.sponimg {
+width: 250px;
+height: 150px;
+}

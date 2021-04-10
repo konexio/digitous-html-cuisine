@@ -1,0 +1,17 @@
+/* CSS relatif à la Team Page */
+header {
+background-image:linear-gradient(grey, #333), url(../img/team/team.jpg);
+background-blend-mode: multiply ;
+background-position: center;
+padding-bottom:30%;
+}
+#navbarNavAltMarkup {
+justify-content: flex-end;
+}
+
+.tony, .clementine, .antoine {
+border-radius: 50%;
+height: 20vh;
+padding: 1%;
+}
+

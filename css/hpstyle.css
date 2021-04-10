@@ -4,6 +4,7 @@ background-image:linear-gradient(grey, #333), url(../img/header.jpg);
 background-blend-mode: multiply ;
 background-position: center;
 background-size: cover;
+
 }
 
 #navbarNavAltMarkup {
@@ -34,10 +35,4 @@ margin: 3%;
 aside button {
 width: 100%;
 }
-h1, h2, h3, h4, h6 {
-font-family: 'Courgette', cursive;
-}
 
-footer li {
-list-style-type:none;
-}
