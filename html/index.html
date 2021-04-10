@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
     <title>Cui'Zine</title>
     <link rel="preconnect"
         href="https://fonts.gstatic.com">
@@ -20,6 +21,7 @@
         crossorigin="anonymous"></script>
 
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -56,94 +58,161 @@
         <hr>
         <div class="text-center hometitle">
             <img src="../img/logo_square_white.png">
-            <h1>Cui'Zine</h1>
-            <h3>Le Mag Cuisine</h3>
+            <h1 class="display-1">Cui'Zine</h1>
+            <h2 class="display-5">Le Mag Cuisine</h2>
         </div>
     </header>
-    <section>
-        <h2 class="text-center pt-4">Derniers articles</h2>
 
-        <div class="container">
-            <article class="row lesarticles">
-                <div class="col-12 col-md-4 p-0">
-                    <img class="img-fluid"
-                        src="../img/articles/suzette/suzette-header.jpg">
-                </div>
-                <div class="col-12 col-md-8">
-                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                    <p class="text-justify">La franchise "chez suzette" qui fait un carton chez les bretons ouvre son
-                        premier restaurant à Paris dans le quartier latin.
-                        Antoine chez Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!
-                    </p>
-            </article>
-            <article class="row lesarticles">
-                <div class="col-12 col-md-4 p-0">
-                    <img class="img-fluid"
-                        src="../img/articles/metro/metro-header.jpg">
-                </div>
-                <div class="col-12 col-md-8">
-                    <h3>Le Métro dessert</h3>
-                    <p class="text-justify">Germain est ferrovipathe (ndlr:fan de train), son fils Maxime est pâtissier.
-                        Ils ont décidé de réunir leur deux passions dans un restaurabt à la déco inspiré du métro
-                        parisien.
-                        A voir absolument, mais qu'en est-il d'y aller pour manger?
-                        Clémentine entre en gare et nous donne son avis.
-                    </p>
-                </div>
-            </article>
-            <article class="row lesarticles">
-                <div class="col-12 col-md-4 p-0">
-                    <img class="img-fluid"
-                        src="../img/articles/vitaly/vitaly-header.jpg">
-                </div>
-                <div class="col-12 col-md-8">
-                    <h3>Vitaly, le végan italien</h3>
-                    <p class="text-justify">Quand on pense italien, on pense lasagne et jambon de Parme.
-                        Ils l'ont fait, les saveurs de l'italie à portée des herbivores.
-                        Cette fois, c'est moi Tony qui vais le tester pour vous.
-                    </p>
-                </div>
-            </article>
-            <div><a href="pagearticleprecedent.fr">
-                    << Voir
-                        les
-                        articles
-                        précedents</a>
+    <section class="container-lg pb-4">
+        <h2 class="text-center display-3 mb-2">Derniers articles</h2>
+
+        <div class="row">
+            <div class="col-12 col-lg-10">
+                <article class="row mb-3">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <img class="img-fluid"
+                            src="../img/articles/suzette/suzette-header.jpg"
+                            alt="Chez suzette" />
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                        <p class="text-justify">
+                            La franchise "Chez Suzette" qui fait un
+                            carton chez les bretons ouvre son
+                            premier restaurant à Paris dans le quartier latin.
+                            Antoine chez Cui'zine a testé pour vous les saveurs sucrés,
+                            salés au froment ou au sarrazin!
+                        </p>
+                    </div>
+                </article>
+
+                <article class="row mb-3">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <img class="img-fluid"
+                            src="../img/articles/metro/metro-header.jpg"
+                            alt="métro">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <h3>Le Métro dessert</h3>
+                        <p class="text-justify">
+                            Germain est ferrovipathe (ndlr:fan de train),
+                            son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux
+                            passions dans un restaurabt à la déco inspiré du métro parisien.
+                            A voir absolument, mais qu'en est-il d'y aller pour manger?
+                            Clémentine entre en gare et nous donne son avis.
+                        </p>
+                    </div>
+                </article>
+                <article class="row mb-3">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <img class="img-fluid"
+                            src="../img/articles/vitaly/vitaly-header.jpg">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <h3>Vitaly, le végan italien</h3>
+                        <p class="text-justify">
+                            Quand on pense italien, on pense lasagne
+                            et jambon de Parme. Ils l'ont fait, les saveurs de l'italie
+                            à portée des herbivores. Cette fois, c'est moi Tony qui vais
+                            le tester pour vous.
+                        </p>
+                    </div>
+                </article>
             </div>
+
+            <aside class="col-lg-2 d-none d-lg-block">
+                <div class="d-grid">
+                    <h6>Recherche</h6>
+                    <div class="mb-3">
+                        <input type="text"
+                            class="form-control"
+                            id="site-search"
+                            placeholder="Recherche"
+                            aria-label="Search through site content">
+
+                        <!--<div class="d-grid gap-2"> -->
+                        <button class="btn btn-outline-dark "
+                            type="button">OK</button>
+                    </div>
+                </div>
+                <div>
+                    <h6>Newsletter</h6>
+                    <div class="mb-3">
+                        <input type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="Email">
+                        <button class="btn btn-outline-dark"
+                            type="button">S'inscrire</button>
+                    </div>
+                </div>
+                <h6>Partager</h6>
+                <div class="icon">
+                    <i class="fab fa-facebook-square p-1"><a
+                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.cuizine.fr"></a></i>
+                    <i class="fab fa-instagram p-1"><a href="https://www.instagram.com/pearlnode/"></a></i>
+                    <i class="fab fa-youtube p-1"><a href="icimapageYT.fr"></a></i>
+                    <i class="fab fa-twitter p-1"><a
+                            href="https://twitter.com/intent/tweet?url=https://www.cuizine.fr"></a></i>
+                </div>
+            </aside>
         </div>
+        <div><a href="#">&laquo; Voir les articles précedents</a>
         </div>
     </section>
-    <footer>
-        <h3>Catégories</h3>
-        <a href="lienVersRevues.fr">Revues</a><br>
-        <a href="lienVersRecettes.fr">Recettes</a><br>
-        <a href="lienVersDecouvertes.f">Découvertes</a><br>
-        <h3>Archives</h3>
-        <a href="lienVers2019.fr">2019</a><br>
-        <a href="lienVers2018.fr">2018</a><br>
-        <a href="lienVers2017.fr">2017</a><br>
-        <h6>Newsletter</h6>
-        <input type="text"
-            value="Email"
-            id="email">
-        <input class="btn btn-primary"
-            type="submit"
-            value="S'inscrire">
-        <h6>Partager</h6>
-        <div class="icon">
-            <i class="fab fa-facebook-square"><a
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://www.cuizine.fr"></a></i>
-            <i class="fab fa-instagram"><a href="https://www.instagram.com/pearlnode/"></a></i>
-            <i class="fab fa-youtube"><a href="icimapageYT.fr"></a></i>
-            <i class="fab fa-twitter"><a href="https://twitter.com/intent/tweet?url=https://www.cuizine.fr"></a></i>
 
+    <footer class="bg-dark text-white p-lg-5">
+        <div class="container d-block">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h3>Catégories</h3>
+                    <ul class="p-0">
+                        <li><a href="#.fr">Revues</a></li>
+                        <li><a href="#.fr">Recettes</a></li>
+                        <li><a href="#.fr">Découvertes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <h3>Archives</h3>
+                    <ul class="p-0">
+                        <li><a href="#.fr">2019</a></li>
+                        <li><a href="#.fr">2018</a></li>
+                        <li><a href="#.fr">2017</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h6>Newsletter</h6>
+                    <div class="input-group mb-3">
+                        <input type="text"
+                            class="form-control"
+                            placeholder="Email"
+                            aria-label="Recipient's username"
+                            aria-describedby="button-addon2"/>
+                        <button class="btn btn-outline-light"
+                            type="button"
+                            id="button-addon2">
+                            S'inscrire
+                        </button>
+                    </div>
+
+                    <h6>Partager</h6>
+                    <div class="icon">
+                        <i class="fab fa-facebook-square text-body p-1 bg-light"><a
+                                href="https://www.facebook.com/sharer/sharer.php?u=https://www.cuizine.fr"></a></i>
+                        <i class="fab fa-instagram text-body p-1 bg-light"><a
+                                href="https://www.instagram.com/pearlnode/"></a></i>
+                        <i class="fab fa-youtube text-body p-1 bg-light"><a href="icimapageYT.fr"></a></i>
+                        <i class="fab fa-twitter text-body p-1 bg-light"><a
+                                href="https://twitter.com/intent/tweet?url=https://www.cuizine.fr"></a></i>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

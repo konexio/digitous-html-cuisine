@@ -3,11 +3,10 @@ margin: 0;
 font-family: 'Oswald', sans-serif;}
 
 header {
-font-family: 'Courgette', cursive;
 color: white;
 }
+
 footer a {
-text-decoration: none;
 color:white;}
 
 footer {
@@ -15,26 +14,11 @@ background-color: black;
 color: white;
 padding: 10px 10px;}
 
-
-@media only screen and (min-width: 768px) {
-  body {background: blue;}
-.lesarticles {margin: 0;}
-footer {padding: 10%;}
-} 
-
-@media only screen and (min-width: 992px) {
-  body {background: orange;}
-
-
-/*
-@media (min-width: 768px) {
-body {
-background-color: chocolate;}
-.tarticles {
-margin: 5%;}
+form, input, button {
+margin: 0;
 }
-@media (min-width: 992px) {
-body {
-background-color: crimson;}
-}*/
+/*
+@media screen and (min-width: 768px) {
+footer {padding: 10%;}
+} */
 

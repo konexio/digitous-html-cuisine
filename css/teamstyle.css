@@ -1,9 +1,0 @@
-header {
-background-image:linear-gradient(grey, #333), url(../img/team/team.jpg);
-background-blend-mode: multiply ;
-background-position: center;
-padding-bottom:50%;
-}
-.teamtitle {
-display: block;
-align-items: center;}
