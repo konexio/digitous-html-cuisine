@@ -4,7 +4,6 @@ background-image:linear-gradient(grey, #333), url(../img/header.jpg);
 background-blend-mode: multiply ;
 background-position: center;
 background-size: cover;
-
 }
 
 #navbarNavAltMarkup {

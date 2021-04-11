@@ -12,3 +12,9 @@ justify-content: flex-end;
 width: 250px;
 height: 150px;
 }
+.badge {
+font-weight: lighter;
+font-size: 15px;
+margin: 4px;
+padding: 10px;
+}
