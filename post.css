@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width: 768px)  {
+    
+.topheader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #000000;
+    /* background-color: rgba(0,0,0,0.5); */
+
+}
+
+  header h2
+  {
+    font-size: 20px;
+  }
+
+header img.burger
+{    
+  display: block;
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  right: 10px;
+
+}
+
+
+.fullheader
+{
+  
+}
+
+
+
+
+
+
+    }
+
