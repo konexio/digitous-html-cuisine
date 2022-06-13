@@ -1,4 +1,73 @@
+@font-face {
+    font-family: Courg;
+    src: url(./Police/Courgette/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@media screen and (min-width: 787px) 
+
+{
+
+header .topheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid #565757 1px;
+}
+
+
+.topheader h2
+{
+    font-family: "Courg";
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.topheader nav 
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.topheader a {
+    padding: 0 7px 0;
+}
+
+.topheader nav a {
+   
+    text-decoration: none;
+    color: #6c6967;
+}
+
+.topheader nav .home {
+    color: #c5c2c3;
+}
+
+.burger
+{
+    display: none;
+}
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 786px)  {
+    header nav a 
+    {
+        display: none;
+    }
+
     main{
         display: flex;
         flex-direction: column;
