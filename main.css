@@ -7,36 +7,6 @@
     src: url(/Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 /*Les couleurs utilisées sont le blanc : #FFFFFF et le noir #000000*/ 
-@media screen and (max-width: 786px)  {
-    footer,.categories,.archives{
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    footer h1{
-        font-family: Courg;
-        color: white;
-    }
-    footer a{
-        color: white;
-    }
-    .partager .fa-brands{
-        background-color: white;
-    }
-    #Email{
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-    .sub{
-        background-color: black;
-        color: white;
-        border: solid 2px white;
-        border-radius: 5px;
-        padding: 10px;
-        font-weight: 1000;
-    }
-}
 footer{
     display: flex;
     justify-content: space-around;
@@ -76,4 +46,58 @@ footer a{
     border-radius: 5px;
     padding: 10px;
     font-weight: 1000;
+}
+@media screen and (max-width: 786px)  {
+    .topheader{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        border-bottom: 1px solid #000000;
+        background-color: rgb(0, 0, 0,0.5);
+    }
+    header h2{
+        font-size: 20px;
+        font-family: Courg;
+        color: white;
+    }
+    header img.burger{    
+      display: block;
+      width: 30px;
+      position: absolute;
+      top: calc(50% - 15px);
+      right: 10px; 
+    }
+    footer,.categories,.archives{
+        padding: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    footer h1{
+        font-family: Courg;
+        color: white;
+    }
+    footer a{
+        color: white;
+    }
+    .partager .fa-brands{
+        background-color: white;
+    }
+    #Email{
+        font-size: 12px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .sub{
+        background-color: black;
+        color: white;
+        border: solid 2px white;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 11px;
+        font-weight: 1000;
+    }
 }
