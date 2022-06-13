@@ -1,7 +1,29 @@
+@font-face {
+  font-family: "Courgette";
+  src: url(./Police/Courgette/Courgette-Regular.ttf);
+}
 
+@font-face {
+  font-family: "Oswald";
+  src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
+}
 
 @media screen and (max-width: 768px)  {
     
+p
+{
+  font-family: "Oswald";
+  font-size: 11px;
+  color: gray;
+}
+
+h2
+{
+  font-family: "Courgette";
+  font-size: 20px;
+}
+
+
 .topheader {
     position: relative;
     display: flex;
@@ -11,6 +33,15 @@
     border-bottom: 1px solid #000000;
     /* background-color: rgba(0,0,0,0.5); */
 
+}
+
+header 
+{
+  background: url(./img/articles/suzette/suzette-header.jpg) no-repeat;
+  background-size: 250%;
+  background-position: 50% 76%;
+  height: 250px;
+  width: 100%;
 }
 
   header h2
@@ -28,10 +59,108 @@ header img.burger
 
 }
 
-
-.fullheader
+.text
 {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.text h2
+{
+  /* font-family: "Courgette";
+  font-size: 20px; */
+  margin: 5px;
+}
+
+.text p
+{
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.auteur
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.auteur img
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+}
+
+
+
+.aut
+{
+  width: 200px;
+  margin-top: 10px;
+}
+
+.aut h2
+{
+  margin-bottom: 5px;
+}
+.aut p 
+{
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+
+.mail h2
+{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
   
+.mail article{
+
+  padding: 10px;
+}
+
+.ipt
+{
+  padding: 5px;
+  font-size: 15px;
+  width: 330px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: -1px 0px 0px rgba(66,66,66,.0);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.css-input:focus {
+    outline:none;
+}
+
+.square {
+  width: 100px;
+}
+
+.avis img 
+{
+  width: 50px;
+}
+
+.avis
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 }
 
 
@@ -39,5 +168,6 @@ header img.burger
 
 
 
-    }
+
+}
 
