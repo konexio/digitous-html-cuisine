@@ -7,6 +7,10 @@
     src: url(/Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 /*Les couleurs utilisées sont le blanc : #FFFFFF et le noir #000000*/ 
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(/img/header.jpg) no-repeat;
+    background-position: center;
+}   
 footer{
     display: flex;
     justify-content: space-around;
@@ -28,6 +32,9 @@ footer h1{
 footer a{
     color: white;
 }
+footer div{
+    margin-top:20px;
+}
 .partager .fa-brands{
     background-color: white;
     padding: 10px;
@@ -48,10 +55,7 @@ footer a{
     font-weight: 1000;
 }
 @media screen and (max-width: 786px)  {
-    header{
-        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(/img/header.jpg) no-repeat;
-        background-position: center;
-    }
+
     .topheader{
         position: relative;
         display: flex;
