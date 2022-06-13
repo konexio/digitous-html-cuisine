@@ -8,8 +8,17 @@
   src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 768px)  {
     
+nav {
+  display: none;
+}
 p
 {
   font-family: "Oswald";
