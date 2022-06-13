@@ -6,22 +6,14 @@
     font-family: Oswald;
     src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
-
-@media screen and (min-width: 787px) 
-
-{
-
-header .topheader {
+.topheader{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     border-bottom: solid #565757 1px;
 }
-
-
-.topheader h2
-{
+.topheader h2{
     font-family: "Courg";
     padding-left: 20px;
     font-size: 20px;
@@ -29,39 +21,83 @@ header .topheader {
     color: #fff;
 
 }
-
-.topheader nav 
-{
+.topheader nav {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
 }
-.topheader a {
+.topheader a{
     padding: 0 7px 0;
 }
 
-.topheader nav a {
-   
+.topheader nav a{
     text-decoration: none;
     color: #6c6967;
 }
-
-.topheader nav .home {
+.home {
     color: #c5c2c3;
 }
-
-.burger
-{
+.burger{
     display: none;
 }
+main p{
+    color: rgba(0, 0, 0, 0.719);
 }
+h6{
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 10px;
+    margin: 20px 0px 20px 0px;
+}
+.homepage{
+    color: white;
+    font-family: Courg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.homepage h1{
+    padding: 20px;
+}
+.homepage h2{
+    margin-bottom: 100px;
+}
+.homepage{
+    font-size: 50px;
+    padding: 100px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    font-family: Oswald;
+    font-size: 50px;
+    margin: 50px;
+}
+.premier,.deuxieme,.troisieme{
+    display: flex;
+}
+main h2{
+    font-family: Courg;
+    font-size: 25px;
+    margin: 10px;
+}
+main img{
+    width: 20%;
+    margin: 5px;
 
-
-
-
-
-
-
+}
+main p{
+    color: rgba(0, 0, 0, 0.719);
+    margin: 10px;
+}
+h6{ 
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 10px;
+    margin: 20px 0px 20px 0px;
+}
 @media screen and (max-width: 786px)  {
     header nav a 
     {
