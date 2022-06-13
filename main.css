@@ -48,6 +48,10 @@ footer a{
     font-weight: 1000;
 }
 @media screen and (max-width: 786px)  {
+    header{
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(/img/header.jpg) no-repeat;
+        background-position: center;
+    }
     .topheader{
         position: relative;
         display: flex;
@@ -55,7 +59,7 @@ footer a{
         align-items: center;
         padding: 10px 10px;
         border-bottom: 1px solid #000000;
-        background-color: rgb(0, 0, 0,0.5);
+        
     }
     header h2{
         font-size: 20px;
