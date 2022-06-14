@@ -100,15 +100,8 @@ footer div{
     font-weight: 1000;
 }
 @media screen and (max-width: 786px)  {
-
-    .topheader{
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 10px;
-        border-bottom: 1px solid #000000;
-        
+    .topheader nav a{
+        display: none;
     }
     header h2{
         font-size: 20px;
@@ -117,10 +110,6 @@ footer div{
     }
     header img.burger{    
       display: block;
-      width: 30px;
-      position: absolute;
-      top: calc(50% - 15px);
-      right: 10px; 
     }
     footer,.categories,.archives{
         padding: 0;
