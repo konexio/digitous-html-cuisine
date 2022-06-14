@@ -1,0 +1,110 @@
+nav a{
+    color: #6c6967;
+}
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(../img/recipes/paella/paella-header.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 200px 0px;
+}
+.homepage h1{
+    font-size: 50px;
+    font-family: Courg;
+    color: white;
+}
+.homepage h2{
+    font-size: 40px;
+    font-family: Courg;
+    color: white;
+}
+main{
+    margin: 20px;
+    display: flex;
+}
+main .lier{
+    margin-top: 50px;
+}
+main .lier h1{
+    font-family: Courg;
+    padding:0; margin: 10px;
+    font-size: 20px;
+}
+main .recherche,main .newsletter{
+    display: flex;
+    flex-direction: column;
+}
+main .fa-brands{
+    margin: 5px;
+}
+main #Email,main #search{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+main .sub{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 1000;
+}
+.recette{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.recette h1{
+    font-size: 40px;
+    font-family: Courg;
+}
+.horloge{
+    display: flex;
+    flex-direction: column;
+}
+.horloge button{
+    background-color: #616161a9;
+    margin: 3px;
+    font-family: Oswald;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.548);
+    padding: 10px 40px 10px 40px;
+
+}
+.etapes{
+    margin-left: 15px;
+}
+.txt h1{
+    font-family: Courg;
+    font-size: 20px;
+    margin: 10px;
+}
+.txt h2{
+    font-family: Oswald;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+.ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+}
+span{
+    background-color: #6c6967;
+    padding: 10px;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+
+}
+.content{
+    display: flex;
+}
