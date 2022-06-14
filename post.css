@@ -9,12 +9,17 @@
 }
 
 
-
 @media screen and (min-width: 769px) {
 
-.burger {
+/* .burger {
   display: none;
+} */
+
+main
+{
+ margin: 50px;
 }
+
 
  .mail
 {
@@ -30,23 +35,67 @@
   justify-content: center;
 }
 
+.search {
+  height: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #788087;
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+  border: 1px solid;
+  border-color: #d3d8de;
+  border-radius: 3px;
+}
+
+
+
+
 }  
 
 
+main aside {
+  width: 18%;
+  padding-left: 200px;
+}
+main aside form {
+  display: flex;
+  flex-direction: column;
+}
 
-/* @media screen and (max-width: 768px)  { */
-    
+.submit {
+  height: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
 
-.main
+.homepage h1
 {
+  padding: 150px 0 150px 0;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
 
-
-nav {
-  display: none;
+.text {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+
+
+
+/* @media screen and (max-width: 768px)  { */
+
 p
 {
   font-family: "Oswald";
@@ -75,10 +124,10 @@ h2
 header 
 {
   background: url(./img/articles/suzette/suzette-header.jpg) no-repeat;
-  background-size: 200%;
-  background-position: 50% 76%;
-  height: 250px;
-  width: 130%;
+  background-size: cover;
+  background-position: center;
+  /* height: 250px; */
+  /* width: 100%; */
 }
 
   header h2
@@ -86,21 +135,20 @@ header
     font-size: 20px;
   }
 
-header img.burger
-{    
-  display: block;
-  width: 30px;
-  position: absolute;
-  top: calc(50% - 15px);
-  right: 10px;
 
-}
-
+nav a{
+  color: #6c6967;
+  }
+  .blog{
+  color: white;
+  }
+  
 
 .text
 {
   padding: 10px;
   margin-top: 10px;
+
 }
 
 .text h2
@@ -136,7 +184,7 @@ header img.burger
 
 .aut
 {
-  width: 200px;
+  /* width: 200px; */
   margin-top: 10px;
   margin-left: 15px;
 }
@@ -156,7 +204,7 @@ header img.burger
 .mail
 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -195,35 +243,50 @@ header img.burger
     outline:none;
 }
 
-.square {
-  /* display: flex; */
+/* .square {
+  /* display: flex; 
   width: 50px;
   height: 50px;
-}
+} */
 
 .avis img 
 {
-  width: 50px;
+  width: 10%;
 }
 
 .avis
 {
-  /* display: flex;
-  flex-direction: column; */
-  flex-wrap: wrap;
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
 
 }
 
-.comment
+.first, .third
+{
+  display: flex;
+}
+
+.third
+{
+  margin-left: 50px;
+  opacity: 0.5;
+}
+
+/* .comment
 {
   display: flex;
 
   flex-direction: column;
    width: 100px;
-}
+} */
 
 
+@media screen and (max-width: 964px)
+{
+  aside 
+  {
+    display: none;
+  }
 }
 
 

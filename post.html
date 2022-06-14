@@ -5,22 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="post.css">
+
     <title>Document</title>
 </head>
 <body>
     <header>
 <section class="topheader">
         <h2>Cui'zine</h2>
-        <img class="burger" src="./img/Hamburger_icon.svg.png">
-   </section>
-<section class="fullheader">
+        <nav>
+            <a href="Homepage.html" class="home">Acceuil</a>
+            <a href="team.html">Équipe</a>
+            <a href="post.html" class="blog">Blog</a>
+            <a href="contact.html">Contact</a>
+        <img class="burger" src="./img/Hamburger_icon.svg.png" width="30px" height="30px">
 
+        </nav>
+   </section>
+<section class="homepage">
+    <h1>Chez Suzette, bla bla bla bla</h1>
 </section>
     </header>
       
       <main>
         <section class="text">
+            <div>
             <h2>Intro</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem ad, ipsa, eius nihil ab sed esse quae debitis mollitia quasi harum repellendus laudantium voluptatum fugiat facilis, quibusdam illo recusandae.
             </p>
@@ -31,9 +41,32 @@
             <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!</p>
             <h2>Conclusion</h2>
             <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!</p>
-
+            </div>
+            <aside>
+                <section class="recherche">
+                    <h5>Recherche</h5>
+                    <form> 
+                        <input type="text" name="Recherche" class="search" placeholder="Recherche...">
+                        <input type="submit" name="submit" class="submit" value="Ok">
+                    </form>
+                </section>
+                <section class="recherche">
+                    <h5>Newsletter</h5>
+                    <form>                        
+                        <input type="text" name="Newletter" class="search" placeholder="Email...">
+                        <input type="submit" name="submit" class="submit" value="S'inscrire">
+                    </form>
+                </section>
+                <section class="share">
+                    <h5>Partager</h5>
+ 
+                    </div>
+                </section>
+            </aside>
         </section>
         <section class="auteur">
+
+            
             <!-- <img class="imgauteur" src="./img/team/antoine.jpg"> -->
             
             <img src="./img/team/antoine.jpg">
@@ -57,29 +90,69 @@
                 <input style="height: 80px;" class="ipt">
             </article>
             </section>
+
+            
         <section class="avis">
             <h2>Dîtes nous ce que vous en avez pensé</h2>
-            <div class="square">
-                <img src="./img/logo_square_black.png">
-                <br>
-                <img src="./img/logo_square_black.png">
-                <img src="./img/logo_square_white.png">
+            <!-- <div class="square"> -->
             
-            <div class="comment">
-                <article class="commentaire">
+            <!-- <div class="comment"> -->
+                <article class="first">
+                <img src="./img/logo_square_black.png">
+                <div class="text">
                 <h3>Mathieu</h3>
                 <p>J'ai testé moi aussi et j'ai été agréablement surpris</p>
+                </div>
+                </article>
+                <article class="first">
+                <img src="./img/logo_square_black.png">
+                <div class="text">
                 <h3>Suzette</h3>
                 <p>J'ai testé moi aussi et j'ai été agréablement surpris</p>
+                </div>
+            </article>
+                <article class="third">
+                <img src="./img/logo_square_black.png">
+                <div class="text">
                 <h3>Haterz</h3>
                 <p>J'ai testé moi aussi et j'ai été agréablement surpris</p>
+                </div>
             </article>
-            </div>
-        </div>
+
+            
+            <!-- </div> -->
+        <!-- </div> -->
         </section>
       </main>
-      <footer>
-
-      </footer>
+     <footer>
+        <div class="categories">
+            <h1>Catégories</h1>
+            <a href="#">Revues</a>
+            <a href="#">Recettes</a>
+            <a href="#">Découvertes</a>
+        </div>
+        <div class="archives">
+            <h1>Archives</h1>
+            <a href="#">2019</a>
+            <a href="#">2018</a>
+            <a href="#">2017</a>
+        </div>
+        <section class="lier">
+        <div class="newsletter">
+            <h1>Newsletter</h1>
+            <form action="/action_page.php">
+                <input type="text" id="Email" name="Email" placeholder="Email...">
+                <button name="field_name" value="submitted_value" class="sub">S'inscrire</button>
+              </form>     
+        </div>
+        <div class="partager">
+            <h1>Partager</h1>
+            <i class="fa-brands fa-facebook-square fa-2x"></i>
+            <i class="fa-brands fa-instagram-square fa-2x"></i>
+            <i class="fa-brands fa-youtube-square fa-2x"></i>
+            <i class="fa-brands fa-twitter-square fa-2x"></i>
+        </div>
+        </section>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Courgette', cursive; /
+/ font-family: 'Oswald', sans-serif; */
+
+/* body {
+    font-family: 'Courgette', sans-serif;
+} */
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(./img/header.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}  
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Courgette', sans-serif;
+}
+
+.menu {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #626464;
+    color: white;
+    padding: 0 40px;
+}
+
+
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Courgette', sans-serif;   
+}
+
+.contact {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.content_map {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+.adress {
+    width: 33%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find {
+    width: 100%;
+}
+
+.find, .news {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'Courgette', sans-serif;   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #788087;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: #d3d8de;
+    border-radius: 3px;
+}
+.submit {
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.icones {
+    padding-top: 30px;
+}
+
+.icones img {
+    padding: 25px;
+}
+
+
+
+footer {
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+
+
