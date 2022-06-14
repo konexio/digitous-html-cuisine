@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Courgette', cursive; /
+/ font-family: 'Oswald', sans-serif; */
+
+/* body {
+    font-family: 'Courgette', sans-serif;
+} */
+
+
+nav a{
+    color: #6c6967;
+}
+.home{
+    color: white;
+}
+
+.homepage h1
+{
+    margin-bottom: 200px;
+    font-family: Courg;
+    color: #fff;
+}
+
+.homepage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_map {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.contact {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Courgette', sans-serif;
+}
+
+/* .lier {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+ 
+
+
+main .lier
+{
+    margin-top: 30px;
+}
+
+.lier h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'Courgette', sans-serif;   
+}
+
+.adress {
+    width: 33%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 769px) {    
+
+main .lier {
+    display: none;
+}
+
+
+}
