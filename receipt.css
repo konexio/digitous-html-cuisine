@@ -26,6 +26,37 @@ main{
     margin: 20px;
     display: flex;
 }
+main .lier{
+    margin-top: 50px;
+}
+main .lier h1{
+    font-family: Courg;
+    padding:0; margin: 10px;
+    font-size: 20px;
+}
+main .recherche,main .newsletter{
+    display: flex;
+    flex-direction: column;
+}
+main .fa-brands{
+    margin: 5px;
+}
+main #Email,main #search{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+main .sub{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 1000;
+}
 .recette{
     display: flex;
     justify-content: space-between;
