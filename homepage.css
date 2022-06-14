@@ -6,39 +6,11 @@
     font-family: Oswald;
     src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
-.topheader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: solid #565757 1px;
-}
-.topheader h2{
-    font-family: "Courg";
-    padding-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-
-}
-.topheader nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 30px;
-}
-.topheader a{
-    padding: 0 7px 0;
-}
-
-.topheader nav a{
-    text-decoration: none;
+nav a{
     color: #6c6967;
 }
-.home {
-    color: #c5c2c3;
-}
-.burger{
-    display: none;
+.home{
+    color: white;
 }
 main p{
     color: rgba(0, 0, 0, 0.719);

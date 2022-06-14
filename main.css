@@ -7,6 +7,50 @@
     src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 /*Les couleurs utilisées sont le blanc : #FFFFFF et le noir #000000*/ 
+/*nav*/
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid #565757 1px;
+}
+.topheader h2{
+    font-family: "Courg";
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+
+}
+.topheader nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    font-family: Oswald;
+    font-size: 20px;
+}
+.topheader a{
+    padding: 0 7px 0;
+}
+
+.topheader nav a{
+    text-decoration: none;
+    /* color add the colors in your own Css so that you can custumise it to white 
+    exemple
+    nav a{
+    color: #6c6967;
+    }
+    .home{
+    color: white;
+    }
+    */
+}
+.burger{
+    display: none;
+}
+/* nav */
+
 header{
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(./img/header.jpg) no-repeat;
     background-position: center;
