@@ -10,12 +10,40 @@
 
 
 
+@media screen and (min-width: 769px) {
+
+.burger {
+  display: none;
+}
+
+ .mail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.auteur
+{
+  justify-content: center;
+}
+
+}  
 
 
 
-
-@media screen and (max-width: 768px)  {
+/* @media screen and (max-width: 768px)  { */
     
+
+.main
+{
+  display: flex;
+  justify-content: center;
+}
+
+
 nav {
   display: none;
 }
@@ -47,10 +75,10 @@ h2
 header 
 {
   background: url(./img/articles/suzette/suzette-header.jpg) no-repeat;
-  background-size: 250%;
+  background-size: 200%;
   background-position: 50% 76%;
   height: 250px;
-  width: 100%;
+  width: 130%;
 }
 
   header h2
@@ -67,6 +95,7 @@ header img.burger
   right: 10px;
 
 }
+
 
 .text
 {
@@ -91,7 +120,7 @@ header img.burger
 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 25px;
 }
@@ -109,16 +138,27 @@ header img.burger
 {
   width: 200px;
   margin-top: 10px;
+  margin-left: 15px;
 }
 
 .aut h2
 {
   margin-bottom: 5px;
+  margin-left 10px;
 }
 .aut p 
 {
   font-size: 12px;
   line-height: 1.2em;
+}
+
+
+.mail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -128,8 +168,11 @@ header img.burger
   padding-bottom: 5px;
 }
   
-.mail article{
-
+.mail article 
+{
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
   padding: 10px;
 }
 
@@ -153,7 +196,9 @@ header img.burger
 }
 
 .square {
-  width: 100px;
+  /* display: flex; */
+  width: 50px;
+  height: 50px;
 }
 
 .avis img 
@@ -163,20 +208,29 @@ header img.burger
 
 .avis
 {
+  /* display: flex;
+  flex-direction: column; */
+  flex-wrap: wrap;
+  padding-top: 50px;
+
+}
+
+.comment
+{
   display: flex;
+
   flex-direction: column;
+   width: 100px;
+}
+
+
 }
 
 
 
 
-}
 
 
 
 
-
-
-
-}
 
