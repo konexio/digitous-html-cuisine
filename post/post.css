@@ -68,6 +68,12 @@ main aside form {
   flex-direction: column;
 }
 
+aside h5 {
+  font-family: 'Courgette';
+  font-size: 18px;
+  margin: 15px;
+}
+
 .submit {
   height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -172,6 +178,7 @@ nav a{
   /* font-family: "Courgette";
   font-size: 20px; */
   margin: 5px;
+  margin-bottom: 15px;
 }
 
 .text p
@@ -297,7 +304,7 @@ nav a{
 } */
 
 
-@media screen and (max-width: 1077px)
+@media screen and (max-width: 1078px)
 {
   aside 
   {
