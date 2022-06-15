@@ -1,6 +1,7 @@
 nav a{
     color: #6c6967;
 }
+
 header{
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(../img/recipes/paella/paella-header.jpg) no-repeat;
     background-position: center;

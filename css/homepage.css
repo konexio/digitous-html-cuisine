@@ -85,7 +85,15 @@ main #Email,main #search{
     border-radius: 7px;
     border: 1px solid grey;
 }
-
+.cursor{
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration: none;
+    color: #6c6967;
+}
+.cursor:hover{
+    color: black;
+}
 main .sub{
     background-color: white;
     color: black;

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Courgette";
-  src: url(./Police/Courgette/Courgette-Regular.ttf);
+  src: url(../Police/Courgette/Courgette-Regular.ttf);
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
+  src: url(../Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
 
@@ -137,7 +137,7 @@ h2
 
 header 
 {
-  background: url(./img/articles/suzette/suzette-header.jpg) no-repeat;
+  background: url(../img/articles/suzette/suzette-header.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   /* height: 250px; */
@@ -208,7 +208,7 @@ nav a{
 .aut h2
 {
   margin-bottom: 5px;
-  margin-left 10px;
+  margin-left:10px;
 }
 .aut p 
 {

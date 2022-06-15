@@ -1,10 +1,10 @@
 @font-face {
     font-family: Courg;
-    src: url(./Police/Courgette/Courgette-Regular.ttf);
+    src: url(../Police/Courgette/Courgette-Regular.ttf);
 }
 @font-face {
     font-family: Oswald;
-    src: url(./Police/Oswald/Oswald-VariableFont_wght.ttf);
+    src: url(../Police/Oswald/Oswald-VariableFont_wght.ttf);
 }
 nav a{
     color: #6c6967;
@@ -50,7 +50,8 @@ main h1{
     font-size: 50px;
     margin: 0;
 } 
-.content h6{
+.cursor{
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
