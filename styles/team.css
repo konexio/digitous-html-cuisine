@@ -36,6 +36,10 @@
   margin-bottom: 16px;
 }
 
+.team-container a {
+  color: black;
+}
+
 .team-container p {
   font-weight: 200;
 }

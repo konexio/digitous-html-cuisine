@@ -1,0 +1,35 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url("../img/team/team.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.team-member-container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.team-member-container img {
+  float: left;
+  width: 350px;
+  border-radius: 50%;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.team-member-container p {
+  font-weight: 200;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .team-member-container img {
+    width: 180px;
+  }
+}
