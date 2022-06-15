@@ -23,7 +23,7 @@ header{
     color: white;
 }
 main{
-    margin: 20px;
+    margin: 50px;
     display: flex;
 }
 main .lier{
@@ -93,18 +93,67 @@ main .sub{
     margin: 10px;
 }
 .ingredients{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    width: 10%;
+    width: 10%; */
+    width: 20%;
 }
 span{
+    overflow:visible;
     background-color: #6c6967;
+    line-height: 3;
     padding: 10px;
     color: white;
     margin: 3px;
     border-radius: 20px;
-
+}
+.images img{
+    width: 20%;
 }
 .content{
     display: flex;
+}
+@media screen and (max-width:768px) {
+    main .lier{
+        display:none;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .ingredients{
+        width: 100%;
+    }
+    span{
+        line-height: 2.5;
+    }
+    .images img{
+        width: 30%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:414px){
+    .name h1{
+        font-size: 15px;
+    }
+    .homepage h2{
+        font-size: 20px;
+    }
+    .horloge button{
+        padding: 0px;
+        font-size: 10px;  
+    }
+    span{
+        font-size: 10px;
+        line-height: 3;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .images img{
+        width: 40%;
+    }
 }
