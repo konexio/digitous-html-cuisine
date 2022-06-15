@@ -106,6 +106,7 @@ span{
     color: white;
     margin: 3px;
     border-radius: 20px;
+    white-space: nowrap;
 }
 .images img{
     width: 20%;
