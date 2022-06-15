@@ -1,0 +1,93 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url("../img/recipes/paella/paella-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.recipe-container {
+  flex: 1;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.recipe-header h3 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 24px;
+}
+
+.recipe-header p {
+  text-align: center;
+  padding: 8px 32px;
+  background-color: rgba(0,0,0,0.25);
+  margin-bottom: 8px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.recipe-ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 175px;
+  gap: 8px;
+}
+
+.recipe-ingredients span {
+  padding: 8px;
+  border-radius: 32px;
+  color: white;
+  background-color: rgba(0,0,0,0.50);
+}
+
+.recipe-steps {
+  flex: 1;
+}
+
+.recipe-steps h4 {
+  font-family: 'Courgette', sans-serif;
+  margin-bottom: 16px;
+}
+
+.recipe-steps p {
+  margin-bottom: 24px;
+  font-weight: 200;
+}
+
+.recipe-images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.recipe-images img {
+  width: 200px;
+}
+
+@media (max-width: 992px) {
+  .recipe-ingredients {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}

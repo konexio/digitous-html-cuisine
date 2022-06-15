@@ -1,0 +1,130 @@
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  font-size: 34px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px 40px;
+}
+
+.hero {
+  background-image: url("../img/articles/suzette/suzette-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.post-container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.post {
+  width: 100%;
+}
+
+.post-container h3 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.post p {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 16px;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+.post .intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.post .intro span {
+  font-size: 72px;
+  font-weight: 500;
+  padding-right: 8px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.post .intro p {
+  margin-bottom: 0;
+}
+
+.author {
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+  padding: 32px 0px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author img {
+  width: 175px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.author p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  max-width: 300px;
+  line-height: 24px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-family: 'Courgette', sans-serif; 
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+form input {
+  width: 100%;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.comment img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.comment p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  line-height: 24px;
+}
+
+.reply {
+  padding-left: 80px;
+}
+
+.reply img {
+  opacity: 0.5;
+}

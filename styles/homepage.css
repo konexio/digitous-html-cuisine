@@ -1,0 +1,64 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
+.container {
+  display: flex;
+}
+
+.articles-container {
+  flex: 1;
+  padding-right: 24px;
+}
+
+.articles-container a {
+  color: black;
+}
+
+.articles-container article {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.articles-container article img {
+  width: 200px;
+  margin-right: 24px;
+}
+
+.articles-container article h5 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.articles-container article p {
+  font-weight: 200; 
+}
+
+@media (max-width: 992px) {
+  .articles-container {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-container article {
+    flex-direction: column;
+  }
+
+  .articles-container article img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+

@@ -1,0 +1,33 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.address-container {
+  flex: 1;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+h3 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 24px;
+  display: block;
+}
+
+address {
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+address p {
+  color: grey;
+  line-height: 40px;
+}
