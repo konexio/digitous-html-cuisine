@@ -21,13 +21,7 @@ main
 }
 
 
- .mail
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 .auteur
@@ -49,13 +43,25 @@ main
 
 
 
-
 }  
+
+
+
+.mail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 main aside {
   width: 18%;
   padding-left: 200px;
+  font-family: 'Courg';
+  margin-bottom: 3px;
+
 }
 main aside form {
   display: flex;
@@ -78,13 +84,27 @@ main aside form {
   transition: 0.5s;
 }
 
+.homepage
+{
+  padding: 170px 0 170px 0;
+
+}
+
 .homepage h1
 {
-  padding: 150px 0 150px 0;
+  /* padding: 170px 0 170px 0; */
   font-size: 20px;
   display: flex;
   justify-content: center;
+  font-family: 'Courg';
+  color: white;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.677);
+  margin-left: 40px;
+  margin-right: 40px;  
 }
+
+
 
 .text {
   display: flex;
@@ -109,17 +129,11 @@ h2
   font-size: 20px;
 }
 
-
+ 
 .topheader {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
-    border-bottom: 1px solid #000000;
-    /* background-color: rgba(0,0,0,0.5); */
+  backdrop-filter: brightness(30%)
 
-}
+} 
 
 header 
 {
@@ -136,13 +150,15 @@ header
   }
 
 
+
 nav a{
   color: #6c6967;
   }
   .blog{
   color: white;
   }
-  
+
+
 
 .text
 {
@@ -281,7 +297,7 @@ nav a{
 } */
 
 
-@media screen and (max-width: 964px)
+@media screen and (max-width: 1077px)
 {
   aside 
   {

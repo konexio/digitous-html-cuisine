@@ -1,0 +1,82 @@
+header 
+{
+  background: url(./img/team/team.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.topheader {
+    backdrop-filter: brightness(30%);
+
+}
+
+nav a{
+    color: #6c6967;
+    }
+    .home{
+    color: white;
+    }
+.homepage
+{
+  padding: 100px 0 240px 0;
+
+}
+
+.homepage h1
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Courg';
+  color: white;
+  font-size: 40px;
+
+}
+
+main
+{
+    display: flex;
+    padding: 50px 9% 50px 9%;
+}
+
+main  img {
+    width: 35%;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+main .big {
+    width: 80%;
+}
+
+main p {
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Oswald';
+    color: gray;
+    line-height: 1.2em;
+}
+
+aside
+{
+    padding-left: 100px;
+}
+
+aside h5
+{
+    font-family: 'Courg';
+    margin-bottom: 3px;
+}
+
+.big {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 769px) {
+
+    aside {
+        display: none;
+    }
+
+
+}
