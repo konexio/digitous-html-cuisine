@@ -173,6 +173,11 @@ nav a{
 
 }
 
+.text div
+{
+  width: 55%;
+}
+
 .text h2
 {
   /* font-family: "Courgette";
@@ -304,11 +309,17 @@ nav a{
 } */
 
 
-@media screen and (max-width: 1078px)
+@media screen and (max-width: 967px)
 {
   aside 
   {
     display: none;
+  }
+
+  .text 
+  {
+    display: flex;
+    justify-content: center;
   }
 }
 
